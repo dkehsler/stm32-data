@@ -191,3 +191,12 @@ enum/RDYPOL:
   - name: ActiveHigh
     description: PSSI_RDY active high (1 indicates that the receiver is ready to receive).
     value: 1
+enum/CKSRC:
+  bit_size: 1
+  variants:
+  - name: ExternalClock
+    description: External clock (PSSI_PDCK in input).
+    value: 0
+  - name: InternalClock
+    description: Internal clock (PSSI_PDCK in output).
+    value: 1
