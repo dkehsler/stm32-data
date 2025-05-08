@@ -61,6 +61,11 @@ fieldset/CR:
     bit_offset: 18
     bit_size: 3
     enum: DERDYCFG
+  - name: CKSRC
+    description: Clock source.
+    bit_offset: 29
+    bit_size: 1
+    enum: CKSRC
   - name: DMAEN
     description: DMA enable bit.
     bit_offset: 30
